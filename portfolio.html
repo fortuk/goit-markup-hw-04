@@ -8,40 +8,36 @@
     <title>Портфолио</title>
     <style>
         li {list-style: none;}
-        a {text-decoration:none;}
+        a {text-decoration: none}
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="container1">
+<body class="container">
     <!-- Шапка сайта -->
     <header class="headers">
-        <div class="headers conteiner">
-             <div class="headers_div">
-                <nav class="headers_navigation"><a class="logo" style="color: black;" href=""><span class="firs_logo">Web</span>Studio</a>    
-                    <ul class="style_navigation" >
-                        <li class="navigation"><a class="stydio1" href="Студия">Студия</a></li>
-                        <li class="navigation"><a class="portfolio1" href="portfolio.html">Портфолио</a></li>
-                        <li class="navigation"><a class="contakts1" href="Контакты">Контакты</a></li>                    
-                </nav>
-            </div>
-            <div class="headers_div">
-                <ul class="style_mail_tel">
-                   <li class="navigation"><svg class="icon icon-mail2"><use xlink:href="#icon-mail2"><symbol id="icon-mail2" viewBox="0 0 32 32">
-                    <path d="M26.667 0h-21.333c-2.934 0-5.334 2.4-5.334 5.334v21.332c0 2.936 2.4 5.334 5.334 5.334h21.333c2.934 0 5.333-2.398 5.333-5.334v-21.332c0-2.934-2.399-5.334-5.333-5.334zM26.667 4c0.25 0 0.486 0.073 0.688 0.198l-11.355 9.388-11.355-9.387c0.202-0.125 0.439-0.198 0.689-0.198h21.333zM5.334 28c-0.060 0-0.119-0.005-0.178-0.013l7.051-9.78-0.914-0.914-7.293 7.293v-19.098l12 14.512 12-14.512v19.098l-7.293-7.293-0.914 0.914 7.051 9.78c-0.058 0.008-0.117 0.013-0.177 0.013h-21.333z"></path>
-                    </symbol></use></svg><a class="e_mail" href="maito:info@devstudio.com">info@devstudio.com</a></li>
-                   <li class="navigation"><svg class="icon icon-mobile"><use xlink:href="#icon-mobile"><symbol id="icon-mobile" viewBox="0 0 32 32">
-                    <path d="M23 0h-14c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 1.5h8v1h-8v-1zM16 30c-1.105 0-2-0.895-2-2s0.895-2 2-2 2 0.895 2 2-0.895 2-2 2zM24 24h-16v-20h16v20z"></path>
-                    </symbol></use></svg><a class="tell" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </div>
+        <div class="headers_div container">
+            <nav class="headers_navigation"><a class="logo" style="color: black;" href=""><span
+                        class="firs_logo">Web</span>Studio</a>
+                <ul class="style_navigation">
+                    <li class="navigation stydio"><a class="stydio1" href="/index.html">Студия</a></li>
+                    <li class="navigation portfolio"><a class="portfolio1" href="portfolio.html">Портфолио</a></li>
+                    <li class="navigation contakts"><a class="contakts1" href="Контакты">Контакты</a></li>
+            </nav>
         </div>
-        </header>
+        <div class="headers_div container">
+            <ul class="style_mail_tel">
+                <li class="mail"><a class="e_mail" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="tel"><a class="tell" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
     <main>
         <!-- Навигация по сайту -->
         <section class="size container">
+            <div class="conteiner">
             <ul class="buttons_selection">
                 <li class="button"><button class="button_1" type="button">Все</button></li>
                 <li class="button"><button class="button_2" type="button">Веб-сайты</li>
@@ -132,6 +128,7 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
         <!-- Юредический адресс -->
