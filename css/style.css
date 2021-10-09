@@ -152,9 +152,9 @@ ul {
 }
 .size {
   padding: 94px 0px;
-  width: 100%;
 }
 .goal {
+  display: block;
   background-color: #2f303a;
   text-align: center;
   padding: 200px 0px;
@@ -193,7 +193,6 @@ ul {
     url(/img/19.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1600px;
   background-size: cover;
   text-align: center;
 }
@@ -308,9 +307,6 @@ img {
 .image_team :not(:first-child) {
   flex-basis: calc((100% - 120px) / 2);
 }
-.ime {
-  margin: 0px;
-}
 .text_team {
   font-family: Roboto;
   font-style: normal;
@@ -357,10 +353,12 @@ img {
   height: 20px;
   fill: #afb1b8;
 }
-.link-team:hover {
+.link-team:hover,
+.link-team:focus {
   background-color: #2196f3;
 }
-.icon-team:hover {
+.icon-team:hover,
+.icon-team:focus {
   fill: #ffffff;
 }
 .list_our_clients {
@@ -409,7 +407,8 @@ img {
   height: 60px;
   margin: 16px 32px;
 }
-.link_our_clients:hover {
+.link_our_clients:hover,
+.link_our_clients:focus {
   stroke: #2196f3;
 }
 .fone_our_clients {
@@ -458,19 +457,22 @@ img {
 .addres1 {
   color: #ffffff;
 }
-.addres1:hover {
+.addres1:hover,
+.addres1:focus {
   color: #2196f3;
 }
 .mail2 {
   color: rgba(255, 255, 255, 0.6);
 }
-.mail2:hover {
+.mail2:hover,
+.mail2:focus {
   color: #2196f3;
 }
 .tel2 {
   color: rgba(255, 255, 255, 0.6);
 }
-.tel2:hover {
+.tel2:hover,
+.tel2:focus {
   color: #2196f3;
 }
 .text_legall_social {
@@ -503,7 +505,8 @@ img {
 .item_legal_social + .item_legal_social {
   margin-left: 10px;
 }
-.item_legal_social:hover {
+.item_legal_social:hover,
+.item_legal_social:focus {
   background-color: #2196f3;
 }
 .icon_legal_socia {
@@ -567,35 +570,40 @@ img {
   cursor: pointer;
   padding: 6px 22px;
 }
-.button_1:hover {
+.button_1:hover,
+.button_1:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button_2:hover {
+.button_2:hover,
+.button_2:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button_3:hover {
+.button_3:hover,
+.button_3:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button_4:hover {
+.button_4:hover,
+.button_4:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button_5:hover {
+.button_5:hover,
+.button_5:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -634,7 +642,8 @@ img {
 .img_kontent_link {
   display: block;
 }
-.img_kontent_link:hover {
+.img_kontent_link:hover,
+.img_kontent_link:focus {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
