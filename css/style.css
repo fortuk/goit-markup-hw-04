@@ -143,8 +143,13 @@ ul {
   margin-right: 10px;
   color: #757575;
 }
+.icone:hover,
+.icone:focus {
+  fill: #2196f3;
+}
 .size {
   padding: 94px 0px;
+  width: 100%;
 }
 .goal {
   background-color: #2f303a;
@@ -167,6 +172,11 @@ ul {
 .button_goal {
   padding: 10px 32px;
   background-color: #2196f3;
+  color: white;
+}
+.button_goal:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .button_goal {
   cursor: pointer;
@@ -231,7 +241,7 @@ ul {
   display: block;
   width: 65px;
   height: 70px;
-} 
+}
 .text_work {
   font-family: Roboto;
   font-style: normal;
@@ -252,13 +262,13 @@ img {
   display: block;
   min-width: 100%;
   height: auto;
+  margin: 0px;
 }
 .foto:first-child {
   margin-left: 0px;
 }
 .foto:not(:first-child) {
   margin-left: 30px;
-  flex-basis: calc((100% - 60px) / 4);
 }
 .our_team {
   background-color: #f5f4fa;
@@ -279,6 +289,8 @@ img {
   flex-direction: row;
   margin-left: 0px;
   padding-left: 0px;
+  max-width: 270px;
+  margin-right: 0px;
 }
 .image_team {
   margin-left: 30px;
@@ -287,11 +299,14 @@ img {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
-.image_team:nth-child(1) {
+.image_team:first-child {
   margin-left: 0px;
 }
 .image_team :not(:first-child) {
   flex-basis: calc((100% - 120px) / 2);
+}
+.ime {
+  margin: 0px;
 }
 .text_team {
   font-family: Roboto;
@@ -334,8 +349,8 @@ img {
   justify-content: center;
   margin-right: 10px;
 }
-.item-team:hover{
-  fill:tomato;
+.item-team:hover {
+  fill: tomato;
 }
 .icon-team {
   width: 20px;
@@ -393,6 +408,9 @@ img {
   width: 106px;
   height: 60px;
   margin: 16px 32px;
+}
+.fone_our_clients {
+  fill: var(-color, #2196f3);
 }
 .legall_adress {
   background-color: #2f303a;
@@ -549,32 +567,37 @@ img {
 .button_1:hover {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .button_2:hover {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .button_3:hover {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .button_4:hover {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .button_5:hover {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .kontent_image {
   display: flex;
@@ -609,9 +632,10 @@ border-radius: 4px;
   display: block;
 }
 .img_kontent_link:hover {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .text {
   padding: 20px 24px;
@@ -631,4 +655,3 @@ border-radius: 4px;
   line-height: 30px;
   color: #757575;
 }
-
