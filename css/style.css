@@ -85,19 +85,22 @@ ul {
 .stydio1 {
   color: black;
 }
-.stydio1:hover {
+.stydio1:hover,
+.stydio1:focus {
   color: #2196f3;
 }
 .portfolio1 {
   color: black;
 }
-.portfolio1:hover {
+.portfolio1:hover,
+.portfolio1:focus {
   color: #2196f3;
 }
 .contakts1 {
   color: black;
 }
-.contakts1:hover {
+.contakts1:hover,
+.contakts1:focus {
   color: #2196f3;
 }
 .style_mail_tel {
@@ -123,13 +126,15 @@ ul {
 .e_mail {
   color: rgba(117, 117, 117, 1);
 }
-.e_mail:hover {
+.e_mail:hover,
+.e_mail:focus {
   color: #2196f3;
 }
 .tell {
   color: #757575;
 }
-.tell:hover {
+.tell:hover,
+.tell:focus {
   color: #2196f3;
 }
 .icone {
@@ -223,6 +228,7 @@ ul {
   padding: 25px 100px;
 }
 .ico {
+  display: block;
   width: 65px;
   height: 70px;
 } 
