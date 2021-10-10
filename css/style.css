@@ -407,9 +407,12 @@ img {
   height: 60px;
   margin: 16px 32px;
 }
+.link_our_clients {
+  fill: #afb1b8;
+}
 .link_our_clients:hover,
 .link_our_clients:focus {
-  stroke: #2196f3;
+  fill: #2196f3;
 }
 .fone_our_clients {
   fill: var(-color, #2196f3);
