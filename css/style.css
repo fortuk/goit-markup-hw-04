@@ -190,7 +190,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/img/19.jpg);
+    url("../img/19.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
