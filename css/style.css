@@ -149,7 +149,6 @@ ul {
   color: #2196f3;
   fill: #2196f3;
 }
-}
 .e_mail1:hover,
 .e_mail1:focus {
   color: #2196f3;
@@ -359,7 +358,7 @@ img {
   line-height: 19px;
   color: #757575;
   margin-left: 0px;
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .text1 {
   padding: 30px 60px;
